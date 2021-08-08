@@ -1,0 +1,6 @@
+{
+  "name": "Fast Food",
+  "tree": {
+    "$path": "build.project.json"
+  }
+}

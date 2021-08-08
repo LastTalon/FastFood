@@ -1,0 +1,25 @@
+{
+  "name": "Fast Food Build",
+  "tree": {
+    "$className": "DataModel",
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "$path": "src/client.project.json"
+      }
+    },
+    "ReplicatedFirst": {
+        "$className": "ReplicatedFirst",
+        "$path": "src/loading.project.json"
+    },
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "$path": "src/server.project.json"
+    },
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "$path": "src/shared.project.json"
+    }
+  }
+}

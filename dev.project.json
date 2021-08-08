@@ -1,0 +1,43 @@
+{
+  "name": "Fast Food Development",
+  "tree": {
+    "$className": "DataModel",
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "$path": "src/client.project.json"
+      }
+    },
+    "ReplicatedFirst": {
+      "$className": "ReplicatedFirst",
+      "$path": "src/loading.project.json"
+    },
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "$path": "src/server.project.json"
+    },
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "$path": "src/shared.project.json",
+      "Modules": {
+        "$className": "Folder",
+        "TestEZ": {
+          "$path": "modules/testez"
+        }
+      },
+      "Tests": {
+        "$className": "Folder",
+        "Runners": {
+          "$path": "tests/runners"
+        },
+        "Unit": {
+          "$path": "tests/unit"
+        },
+        "Integration": {
+          "$path": "tests/integration"
+        }
+      }
+    }
+  }
+}

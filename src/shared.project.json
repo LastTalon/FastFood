@@ -1,0 +1,9 @@
+{
+  "name": "Shared",
+  "tree": {
+    "$path": "shared/",
+    "Packages": {
+      "$path": "../Packages/"
+    }
+  }
+}
